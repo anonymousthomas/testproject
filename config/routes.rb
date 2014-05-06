@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root 'section#index'
+
   get 'section/index'
 
   get 'section/math'
